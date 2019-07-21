@@ -112,9 +112,10 @@ switch (search) {
     fs.readFile('random.txt', 'utf8', function(error, data) {
       if (error) throw error;
       let arr = data.split(',');
-
-      search = arr[0];
-      term = arr[1];
-      console.log(search + ' ' + term);
+      songname = arr[1];
+      if (!term) {
+        term = songname;
+      }
+      song.findSong(term);
     });
 }
