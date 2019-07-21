@@ -23,7 +23,29 @@
 
 ## Preview
 
-`concert-this`:
+### `concert-this`:
 
-![Preview for concert this](./images)
+![Preview for concert this](./images/concert-this.PNG)
 
+### `movie-this`:
+
+![Preview for movie this](./images/movie-this.PNG)
+
+### `movie-this` With no movie specified:
+
+![Preview for movie this not specified](./images/movie-this-empty.PNG)
+
+### `spotify-this-song`:
+
+![Preview for spotify this song](./images/spotify-this-song.PNG)
+
+### `spotify-this-song` With no song/artist specified:
+
+![Preview for spotify this song not specified](./images/spotify-this-song-empty.PNG)
+
+### random.txt Preview:
+
+![Preview for random.txt](./images/random-text.PNG)
+
+### `do-what-it-says`
+![Preview for do what it says](./images/do-what-it-says.PNG)
